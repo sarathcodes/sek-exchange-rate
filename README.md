@@ -7,6 +7,7 @@ This is a simple full stack [React](https://reactjs.org/) application with a [No
 - [Quick Start](#quick-start)
 - [Documentation](#documentation)
 - [Future Work](#future-work)
+- [NPM packages used](#npm-packages-used)
 
 ## Configuration
 
