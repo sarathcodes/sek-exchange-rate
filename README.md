@@ -48,7 +48,7 @@ Since there is no logout functionality provided at the moment, to logout user ca
 - **requestLimitter.js** acts as both an authentication layer and also checks if API limit has been reached for a minute. The technique used to check API limit is sliding technique. At each minute new tokens are alloted and when consumed token are removed appropriately. The limit is applied at user level and not at token level. This is opposed to the requirement as if limitiing is applied at token level user can simply request for a new token using login. All `/api` end points pass through this middleware.
 - **location.js** is responsible for getting country lookup and getting conversion rates
 - **currency.js** is responsible for getting latest conversion rates. The API key used to retrieve this key has a limit of 1000 requests per month. That means approximately we would be only able to make approximately 1 request every 45 minutes. I have a cron function in this method (commneted now) that gets latest conversion rate every x milliseconds
--- The UI componets **countryList** and **login** deals with displaying the country info and login UI
+- The UI componets **countryList** and **login** deals with displaying the country info and login UI
 
 ## Future Work
 - Move **secret** and **restCountryAPIKey** from config to environment variable as exposing of secret keys in config is not recommended
