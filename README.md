@@ -1,4 +1,4 @@
-# Exchange Rate App
+# Exchange Rate App [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=sarathcodes_sek-exchange-rate&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=sarathcodes_sek-exchange-rate)
 
 This is a simple full stack [React](https://reactjs.org/) application with a [Node.js](https://nodejs.org/en/) and [Express](https://expressjs.com/) backend. Client side code is written in React and the backend API is written using Express. This application is configured with [Airbnb"s ESLint rules](https://github.com/airbnb/javascript) and formatted through [prettier](https://prettier.io/). Built using a [boilerplate](https://github.com/crsandeep/simple-react-full-stack) app. 
 
